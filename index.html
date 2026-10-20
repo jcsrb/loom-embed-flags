@@ -161,7 +161,7 @@
       const url = embedUrl(p);
       const card = document.createElement("article");
       card.className = "preset";
-      card.innerHTML = `<h3></h3><code></code><div class="frame"><iframe allowfullscreen></iframe></div>`;
+      card.innerHTML = `<h3></h3><div class="frame"><iframe allowfullscreen></iframe></div><code></code>`;
       card.querySelector("h3").textContent = name;
       card.querySelector("code").textContent = url;
       const frame = card.querySelector("iframe");
